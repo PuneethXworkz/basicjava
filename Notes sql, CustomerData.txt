@@ -1,0 +1,121 @@
+
+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	----Personal Access Token
+
+
+
+DDL- Data Definition language- we can create and manage the structure of data base
+
+DDL Statements.
+
+-CREATE-used to create data base & table
+-ALTER - modify the tabel names, column names, data types and renaming the column names, droping the column./ structure of the data base
+DROP-used to drop the table and data base.(never use drop statement in real scenario)
+truncate-
+
+
+
+Syntax of database 
+
+1. CREATE DATABASE database_name;			create and databse are keywords, keywords should be in uppercase
+
+2. CREATE TABLE table_name(column_name2 datatype, column_name2 datatype)
+
+
+//to use existing database
+
+//USE database_name;
+
+
+3. CREATE TABLE games(id int, name varchar(20));   //to create table
+
+SELECT*FROM games;			//to check whether table is created or not, to select or fetch the data
+(SELECT*FROM table_name;)
+
+
+4.DML-Data manipulation Language; DML statements are used  to  insert or manipulate the data from table, 
+dml statemensts are always table level statemets
+a.Create/Insert
+b.Read
+c.Update
+d.Delete
+
+
+a.INSERT			insert is a keyword, value is a keyword
+
+INSERT INTO table_name  values(1, 'abc');
+
+
+task
+to create new database(self anme)
+create table with 20columns, 10 colums oly int, another 10 columns names.
+create 20 rows- 5 columns bigInt
+
+
+CREATE DATABASE customerData;
+USE customerData;
+
+CREATE TABLE customerData(CustomerId int, CustomerName varchar(20), ContactNo bigint, Address varchar(30),City varchar(15) , PostalCode smallInt, country varchar(20));
+1.  INSERT INTO customerData values(0001, 'Ankanshi', 9998887776, '#33 Church Street', 'Ara', 560 0, 'Albania');
+
+2.  INSERT INTO customerData values(0002,'Balanna',8887776665,'Baldwin Colony', 'Bettiah', 6670, 'Angola');
+
+
+
+  INSERT INTO customerData values(0003, 'Cristopher', 0001112224,'#69 Argi','katihar',7728, 'Bahrain' );
+  INSERT INTO customerData values(0004, 'Sommer', 0119228337,'#98 Adams','Munger', 2951,'Kiribati');
+  INSERT INTO customerData values(0005, 'latimer', 2387654368, 'Crowther Way', 'Pusa', 9240, 'Laos');
+  INSERT INTO customerData values(0006, 'Cramer', 1234567890, 'Johnstow road', 'Siwan', 0033, 'Morocco');
+  INSERT INTO customerData values(0007, 'Philips', 9218347017, 'Maublestr','Bhilai', 9956, 'Nauru');
+  INSERT INTO customerData values(0008, 'Renate', 8762340981, 'Boloivar', 'Jadalpur', 2001, 'Palau');
+  INSERT INTO customerData values(0009, 'Rovelli',9218347067, 'Heer Strt', 'Diu', 9003, 'Samoa' );
+  INSERT INTO customerData values(0010, 'Feure', 9283746518, 'Bering St', 'Silvassa',0212, 'Senegal');
+  INSERT INTO customerData values(0011, 'Bertrand', 8765678767, 'Geilswag', 'Bharuch', 0910, 'Slovakia');
+  INSERT INTO customerData values(0012, 'Pipps', 0908786543, 'Milton Dr', 'Junagadh', 2327, 'Tunisia');
+  INSERT INTO customerData values(0013, 'Holz', 98778943342, 'Gran Via', 'Kheda', 6776, 'Tonga');
+  INSERT INTO customerData values(0014, 'Pavarotti', 0192837465,'25, Lauriston', 'Morbi', 8218, 'Tuvalu');
+  INSERT INTO customerData values(0015, 'Cartrain', 91918282734, 'DaVinci Str', 'Palanpur', 8778, 'Vanuatu');
+  INSERT INTO customerData values(0016,'Ibsen', 8817726635, 'Torikatu', 'Valsad', 9009, 'Togo');
+  INSERT INTO customerData values(0017, 'Isbella',9911183375, 'Keskuskatu', 'Hisar', 0700, 'Yemen');
+  INSERT INTO customerData values(0018, 'Victor',0070020035, 'Wadhurst Rd', 'Eluru', 0200, 'Seychelles');
+  INSERT INTO customerData values(0019, 'Logan',7654326789, 'Suffolk Ln','Tezpur', 0099, 'Niger');
+  INSERT INTO customerData values(0020, 'Johnattan', 6543217890, 'Grenzacherweg', 'Tinsukia', 8239, 'Mozambique');
+
+
+20-8-2022;
+
+to add column and alter the table for existing table, rename the table name, drop the column, add data to the added column - Xworkz.sql
+
+
+
+21-08-2022
+
+Where clause in sql- is used to filter the data from the table.
+
+Select- to fetch the data from the table
+select to fetch perticular row;
+
+notes fro and or not, in, not in, with syntax
+between(CustomerData)
+
+
+And operator
+cond1		cond2		result
+true		false		false
+false		false		false
+true		true		true
+
+Or Operator
+cond1		cond2		Result
+true		false		true
+false		false		false
+true		true		true
+
+In Operator- multiple or conditions
+
+
+CReate new tabel with 10comuns, 20 data,
+alter delete update, where and,or,in,not in, and all the query's till today used.
+
+Where Clause- used to filter the data from the table.
+
+

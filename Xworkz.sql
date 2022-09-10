@@ -49,8 +49,10 @@ UPDATE Xworkz.students1 SET Stream = 'Royal Mech' WHERE id = 12;
 UPDATE Xworkz.students1 SET Stream = 'Civil' WHERE id = 13;
 UPDATE Xworkz.students1 SET Stream = 'Electronics' WHERE id = 14;
 
-SELECT * FROM students1 order by id;
+SELECT * FROM students1 order by id;		/*Order used to */
+INSERT INTO students1 value(15,'xworkz4','Maharashtra','chennai',9898878766,2019,'RoyalMech');
 
 SELECT * FROM students1 where id=12;
 
 select * from students1 where Hometown='Batkal';
+

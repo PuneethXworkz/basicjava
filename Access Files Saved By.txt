@@ -1,0 +1,10 @@
+Files by data
+
+
+games.sql----> creating database, creating table, adding values.
+
+customerData- creating database, craeting table adding values.(External Note pad), IN,OR,NOT,NOT IN,AND
+
+Xworkz.sql & Transport.sql--->alter table, update table data, modify table name,modify column name,
+			 adding and deleting data data,adding columns and data to the existing table, 
+			change table name, order by id  descending or ascending

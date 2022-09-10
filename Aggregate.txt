@@ -1,0 +1,16 @@
+Aggregate Fucntions-	af is used to perform oeprations on set of coulmns & rows
+Af only applied to respective columns
+count : gives the no of rows in the table
+sum: add row or columns
+max:
+min:
+avg: to get avg of particular column.
+
+
+
+only count wil include null values in AF'set
+
+
+task
+
+create 2 tables with 10 column and 10 data.
